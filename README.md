@@ -1,0 +1,2 @@
+# UpButtonApp
+This app has a "Main Activity", along with "Activity A" and "Activity B". There are buttons to go to "Activity A" and "Activity B" back and forth, but after doing that, you have to press the "Back" button on the bottom of the phone numerous times to ever return to the "Main Activity". Thus, the "Up" button is introduced in the "ActionBar" on top, which easily lets you go back to the parent activity, which is declared to be the "Main Activity" in the AndroidManifest.xml file.
