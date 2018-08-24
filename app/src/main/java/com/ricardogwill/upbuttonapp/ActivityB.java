@@ -14,7 +14,7 @@ public class ActivityB extends AppCompatActivity {
     }
 
     public void openA(View view) {
-        Intent openA = new Intent(getApplicationContext(), ActivityA.class);
-        startActivity(openA);
+        Intent openAIntent = new Intent(getApplicationContext(), ActivityA.class);
+        startActivity(openAIntent);
     }
 }
